@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 120%;
+    font-family: 'Vesper Libre', serif;
+    line-height: 1.4;
+    background-color: #F1D7BC;
+    color: #F1D7BC;;
+}
+h2 {
+    padding:  1rem 0 1rem 0;
+}
+nav {
+    background-color: #3F0900;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0rem 0rem 0rem 4rem;
+}
+nav a {
+    color: #F1D7BC;;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+footer {
+    background-color: #3F0900;
+    font-size: smaller;
+}
+footer ol {
+    list-style-type: none;
+    display: flex;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+}
+footer a {
+    color: #F1D7BC;
+    text-decoration: none;
+    display: block;
+    padding: 0rem 0.5rem 0rem 0rem;
+}
+main {
+    margin: auto;
+}
+blockquote {
+    font-family: 'Dancing Script', cursive;
+    font-size: 11vw;
+    text-align: center;
+    padding: 5.5rem; 
+    color: #591305;
+}
+cite {
+    font-family: 'Vesper Libre', serif;
+    padding: 1rem 1rem 1rem 5rem;
+    color: #591305;
+}
+.content-dark-bg {
+    background-color: #591305;
+    height: auto;
+    color: #F1D7BC;
+    text-align: justify;
+}
+.content-light-bg {
+    background-color: #F1D7BC;
+    height: auto;
+    color: #591305;
+    text-align: justify;
+}
+.content-centered-bg {
+    background-color: #fff;
+    height: auto;
+    color: #3F0900;
+}
+section {
+    width: 50%;
+    padding: 5rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+article {
+    display: flex;
+    padding: 6rem 0 6rem 0;
+    align-items: center;
+}
+section a {
+    color: #180400;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
+.content-centered {
+    background-color: #591305;
+    color: #F1D7BC;
+}
+.section-centered {
+    margin: auto;
+}
+.line {
+    padding: 5rem;
+}
+hr {
+    color: #591305;
+    margin: 5rem;
+}
+dd {
+    padding-left: 2rem;
+}
+.end {
+    color: red;
+}
+.fb {
+    color: #3F0900;
+    position: fixed;
+    top: 1rem;
+    right: -1rem;
+}
+.fb a {
+    text-decoration: none;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+    color: #3F0900;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.fb a:hover {
+    color:#fff;
+    background-color: #3F0900; 
+}
+/******************* mobile **********************************/
+@media screen and (max-width: 720px) {
+    .display {
+        display: none;
+    }
+    section {
+        width: auto;
+    }
+    nav ul {
+        font-size: 90%;
+        display: block;
+    }
+    footer ol {
+        display: block;
+    }
+    .end{
+        display: none;
+    }
+    .abstand {
+        display: none;
+    }
+}
